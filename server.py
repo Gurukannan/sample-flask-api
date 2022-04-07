@@ -5,19 +5,19 @@ app = Flask(__name__)
 items = [
     {
         'name': 'Muruga',
-        'place': 'Chennai'
+        'places': 'Chennai'
     },
     {
         'name': 'Tirupati',
-        'place': 'Andhra'
+        'places': 'Andhra'
     }
 ]
 
 
 @app.route('/')
 def index():
-    # return {'message': 'Working fine..'}
-    return jsonify(message='Working fine...')
+    # return {'message': 'Product Team..'}
+    return jsonify(message='Product Team...')
 
 
 @app.route('/items')
