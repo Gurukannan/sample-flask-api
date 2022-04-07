@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 items = [
     {
-        'name': 'Table',
+        'name': 'Muruga',
         'price': 5000
     },
     {
-        'name': 'Chair',
+        'name': 'Tirupati',
         'price': 3000
     }
 ]
