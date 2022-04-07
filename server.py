@@ -5,7 +5,7 @@ app = Flask(__name__)
 items = [
     {
         'name': 'Muruga',
-        'places': 'Chennai'
+        'places': 'Vadapalani'
     },
     {
         'name': 'Tirupati',
